@@ -1,8 +1,8 @@
 package com.spring2.learn_spring_framework2.game;
 
 public class GameRunner {
-    MarioGame game;
-    public GameRunner(MarioGame game) {
+    private GamingConsole game;
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
