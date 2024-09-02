@@ -10,5 +10,9 @@ public class HelloWorldConfiguration {
     public String name(){
         return "Ranga";
     }
+    @Bean
+    public String age(){
+        return "Ranga";
+    }
 
 }
