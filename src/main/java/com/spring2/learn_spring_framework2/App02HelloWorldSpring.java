@@ -4,6 +4,9 @@ import com.spring2.learn_spring_framework2.game.GameRunner;
 import com.spring2.learn_spring_framework2.game.PacManGame;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class App02HelloWorldSpring {
     public static void main(String[] args){
 
@@ -29,6 +32,9 @@ public class App02HelloWorldSpring {
 
         System.out.println(context.getBean(Address.class));
 
+        //함수형 프로그래밍
+        //System.out.println
+        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
     }
 
 }
